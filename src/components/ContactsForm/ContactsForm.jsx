@@ -4,9 +4,9 @@ import { nanoid } from 'nanoid';
 import css from './Contacts.module.css';
 class ContactsForm extends Component {
   state = {
+    id: null,
     name: '',
     number: '',
-    id: null,
   };
 
   reset = () => {
